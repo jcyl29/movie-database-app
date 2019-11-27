@@ -1,0 +1,30 @@
+.movie-list {
+  display: grid;
+  grid-gap: var(--space--3);
+}
+
+// can't use native css variables for media queries
+// https://stackoverflow.com/questions/40722882/css-native-variables-not-working-in-media-queries/40723269
+@media (min-width: 402px) {
+  .movie-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .movie-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .movie-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .movie-list {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

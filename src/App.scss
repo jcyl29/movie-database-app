@@ -1,0 +1,13 @@
+.App {
+  dialog {
+    width: 80%;
+    top: 50%;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+
+  .movie-item > button {
+    background: transparent;
+    border: none;
+  }
+}
