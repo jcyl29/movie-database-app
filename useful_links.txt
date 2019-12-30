@@ -30,5 +30,7 @@ https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-use-html5-picture-for-
 https://stackoverflow.com/questions/40722882/css-native-variables-not-working-in-media-queries/40723269
 https://stackoverflow.com/questions/37790853/using-keydown-why-after-first-character-if-alert-the-value-is-empty
 
+https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+
 https://www.themoviedb.org/documentation/api
 https://developers.themoviedb.org/3/discover/movie-discover

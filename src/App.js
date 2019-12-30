@@ -56,6 +56,9 @@ const App = () => {
   };
 
   useEffect(() => {
+    // by separating all the API requests as individual functions, i am essentially making a IIFE for an async function.
+    // i'm trying to do "top-level await"
+    // https://v8.dev/features/top-level-await
     getConfig();
     getMovies();
     getGenreList();

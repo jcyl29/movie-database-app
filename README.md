@@ -29,7 +29,8 @@ yarn start
 ```
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.<br/>
+Can also be viewed on project's [Github page](https://jcyl29.github.io/movie-database-app/)
 
 ### Tests
 ```
@@ -49,3 +50,4 @@ yarn test
 - prettier: added to enforce coding stying to help autoformat code
 - @testing-library/jest-dom, jest, @testing-library/react: for using React Test Library
 - @react-mock/fetch, node-fetch: added to support mocking of fetch API requests
+- gh-pages: publish app to Github pages
